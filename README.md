@@ -1,5 +1,5 @@
 # .dotfiles
-![diagram ](https://github.com/raulpenate/.dotfiles/.config/info/Dotfiles lifecycle.jpg)
+![diagram ](https://raw.githubusercontent.com/raulpenate/.dotfiles/main/.config/info/Dotfiles%20lifecycle.jpg)
 
 ## Instalation: 
 ```sh
