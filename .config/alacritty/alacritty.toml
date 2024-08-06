@@ -1,0 +1,9 @@
+[font]
+normal = { family = "CaskaydiaCove Nerd Font", style = "Regular" }
+size = 12.0
+
+[keyboard]
+bindings = [
+  { key = "i", mods = "Control", action = "ClearLogNotice" },
+  { key = "r", mode = "Vi|~Search", action = "ToggleViMode" },
+]
