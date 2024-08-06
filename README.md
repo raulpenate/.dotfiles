@@ -3,7 +3,8 @@
 
 ## Instalation: 
 ```sh
-git clone --separate-git-dir=$HOME/.dotfiles https://github.com/raulpenate/.dotfiles.git tmpdotfiles && /.install.sh
+git clone --separate-git-dir=$HOME/.dotfiles https://github.com/raulpenate/.dotfiles.git tmpdotfiles \
+&& cd tmpdotfiles && /.install.sh
 ```
 
 ## Usage from scratch:  
