@@ -11,5 +11,5 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 # Create dotfiles
 rsync --recursive --verbose --exclude '.git' tmpdotfiles/ $HOME/
-rm -r tmpdotfiles
+rm -rf tmpdotfiles
 echo -e '\033[1m:: INSTALLATION COMPLETED!\033[0m'v
