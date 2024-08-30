@@ -3,10 +3,9 @@
 
 ## Instalation: 
 ```sh
-git clone --separate-git-dir=$HOME/.dotfiles https://github.com/raulpenate/.dotfiles.git tmpdotfiles \
-&& cd tmpdotfiles && ./.install.sh
+git clone --separate-git-dir=$HOME/.dotfiles git@github.com:raulpenate/.dotfiles.git tmpdotfiles \
+&& sh tmpdotfiles/.install.sh
 ```
-
 ## Usage from scratch:  
 This is what you do in case you didn't git clone it.
 ```bash
