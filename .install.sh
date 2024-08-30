@@ -15,7 +15,6 @@ rm -rf tmpdotfiles
 
 # OH-MY-ZSH
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
-chsh - s /bin/zsh
 
 # Plugins
 git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
@@ -26,4 +25,7 @@ git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZS
 # Chad NVIM
 git clone https://github.com/NvChad/starter ~/.config/nvim
 
-echo -e '\033[1m:: INSTALLATION COMPLETED!!\033[0m'
+# Change to zsh
+chsh - s /bin/zsh
+echo -e '\033[1m:: Installation completed!!\033[0m'
+echo -e '\033[1m:: PLEASE: REBOOT YOUR PC!!\033[0m'
