@@ -122,7 +122,3 @@ export PATH=$HOME/.config/rofi/bin:$PATH
 
 # Flutter
 export PATH="$PATH:~/development/flutter/bin"
-
-# Fly.io
-export FLYCTL_INSTALL="/home/raulpenate/.fly"
-export PATH="$FLYCTL_INSTALL/bin:$PATH"
