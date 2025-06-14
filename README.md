@@ -1,11 +1,21 @@
 # .dotfiles
 ![diagram ](https://raw.githubusercontent.com/raulpenate/.dotfiles/main/.config/info/Dotfiles%20lifecycle.jpg)
 
-## Instalation: 
+## Instalation of dotfiles: 
 ```sh
 git clone --separate-git-dir=$HOME/.dotfiles git@github.com:raulpenate/.dotfiles.git tmpdotfiles \
 && sh tmpdotfiles/.install.sh
 ```
+
+## Usage if dotfiles were installed: 
+```sh
+git clone --separate-git-dir=$HOME/.dotfiles git@github.com:raulpenate/.dotfiles.git tmpdotfiles
+config status
+config add .vimrc # Or file/folder you want to add
+config commit -m "Add vimrc"
+config push
+```
+
 ## Usage from scratch:  
 This is what you do in case you didn't git clone it.
 ```bash
