@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Define package lists
-yay_apps="brightnessctl discord google-chrome python spotify visual-studio-code-bin librewolf"
+yay_apps="brightnessctl discord google-chrome python spotify visual-studio-code-bin librewolf-bin"
 pacman_apps="alacritty arandr blueman sddm pulseaudio pavucontrol bat github-cli go hugo nodejs \
 thunar neovim npm nitrogen obs-studio picom polybar python-pip ranger redshift sxhkd vim zsh \
-rsync i3-wm i3lock networkmanager lxappearance"
+rsync i3-wm i3lock networkmanager lxappearance rofi"
 
 # Install yay (AUR helper)
 sudo pacman -S --needed git base-devel
