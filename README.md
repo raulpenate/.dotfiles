@@ -34,7 +34,14 @@ config add .vimrc
 config commit -m "Add vimrc"
 config push #if you've a repo
 
-# Step 5: Create GitHub repo if you don't have it
+# Step 5: Link local repo to remote(origin/upstream) repo.
+config remote add origin git@github.com:raulpenate/.dotfiles.git # That's the url in my case
+
+# Or: Create GitHub repo if you don't have it
 gh repo create ".dotfiles" --public   
 config push # now that you've a repo
+
+# Bonus step (in case of having multiple OS):
+config checkout -b mac #to create a branch for mac .dotfiles
+config push --set-upstream origin mac
 ```
